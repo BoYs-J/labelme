@@ -1,6 +1,5 @@
-# -*- mode: python -*-
+# -*- mode: python ; coding: utf-8 -*-
 # vim: ft=python
-# -- coding:utf-8 --
 
 import sys
 
@@ -15,7 +14,7 @@ a = Analysis(
     datas=[
         ('labelme/config/default_config.yaml', 'labelme/config'),
         ('labelme/icons/*', 'labelme/icons'),
-        ('labelme/translate/zh_CN.qm', 'labelme/translate'),
+        ('labelme/translate/*','translate'),
     ],
     hiddenimports=[],
     hookspath=[],
