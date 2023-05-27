@@ -1,4 +1,4 @@
-# -*- mode: python ; coding: utf-8 -*-
+# -*- mode: python -*-
 # vim: ft=python
 
 import sys

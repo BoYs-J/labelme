@@ -13,6 +13,11 @@
         <translation>点击并拖拽以移动控制点</translation>
     </message>
     <message>
+        <location filename="../widgets/canvas.py" line="249"/>
+        <source>Click to create point</source>
+        <translation>单击以创建点</translation>
+    </message>
+    <message>
         <location filename="../widgets/canvas.py" line="259"/>
         <source>Click &amp; drag to move shape &apos;%s&apos;</source>
         <translation>点击并拖拽以移动形状&apos;%s&apos;</translation>
@@ -151,6 +156,16 @@
         <translation>自动保存</translation>
     </message>
     <message>
+        <location filename="../app.py" line="228"/>
+        <source>Save With Image Data</source>
+        <translation>保存图像数据</translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="228"/>
+        <source>Save image data in label file</source>
+        <translation>将图像数据保存在标签文件中</translation>
+    </message>
+    <message>
         <location filename="../app.py" line="238"/>
         <source>&amp;Close</source>
         <translation>关闭(&amp;C)</translation>
@@ -273,12 +288,32 @@
     <message>
         <location filename="../app.py" line="310"/>
         <source>Duplicate Polygons</source>
-        <translation>复制多边形</translation>
+        <translation>创建副本</translation>
     </message>
     <message>
         <location filename="../app.py" line="310"/>
         <source>Create a duplicate of the selected polygons</source>
         <translation>为选中的多边形创建副本</translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="310"/>
+        <source>Copy Polygons</source>
+        <translation>复制多边形</translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="310"/>
+        <source>Copy selected polygons to clipboard</source>
+        <translation>将选定的多边形复制到剪贴板</translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="310"/>
+        <source>Paste Polygons</source>
+        <translation>粘贴多边形</translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="310"/>
+        <source>Paste copied polygons</source>
+        <translation>粘贴复制的多边形</translation>
     </message>
     <message>
         <location filename="../app.py" line="314"/>
@@ -299,6 +334,16 @@
         <location filename="../app.py" line="317"/>
         <source>Add point to the nearest edge</source>
         <translation>在最近的边上加一个控制点</translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="317"/>
+        <source>Remove Selected Point</source>
+        <translation>删除选定点</translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="317"/>
+        <source>Remove selected point from polygon</source>
+        <translation>从多边形中移除选定的点</translation>
     </message>
     <message>
         <location filename="../app.py" line="321"/>
@@ -383,6 +428,16 @@ Polygons</source>
         <translation>缩放至原始大小</translation>
     </message>
     <message>
+        <location filename="../app.py" line="356"/>
+        <source>&amp;Keep Previous Scale</source>
+        <translation>保持上一个比例</translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="356"/>
+        <source>Keep previous zoom scale</source>
+        <translation>保持上一个缩放比例</translation>
+    </message>
+    <message>
         <location filename="../app.py" line="360"/>
         <source>&amp;Fit Window</source>
         <translation>适应窗口(&amp;F)</translation>
@@ -401,6 +456,16 @@ Polygons</source>
         <location filename="../app.py" line="364"/>
         <source>Zoom follows window width</source>
         <translation>跟随窗口宽度缩放</translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="364"/>
+        <source>&amp;Brightness Contrast</source>
+        <translation>亮度对比度</translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="364"/>
+        <source>Adjust brightness and contrast</source>
+        <translation>调整亮度和对比度</translation>
     </message>
     <message>
         <location filename="../app.py" line="380"/>
@@ -601,6 +666,67 @@ Polygons</source>
         <location filename="../app.py" line="1600"/>
         <source>%s - Open Directory</source>
         <translation>%s - 打开目录</translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="1919"/>
+        <source>Save</source>
+        <translation>保存</translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="1919"/>
+        <source>Discard</source>
+        <translation>放弃</translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="1919"/>
+        <source>Cancel</source>
+        <translation>取消</translation>
+    </message>
+</context>
+<context>
+    <name>Brightness</name>
+    <message>
+        <location filename="../widgets/brightness_contrast_dialog.py" line="235"/>
+        <source>Brightness/Contrast</source>
+        <translation>亮度/对比度</translation>
+    </message>
+    <message>
+        <location filename="../widgets/brightness_contrast_dialog.py" line="249"/>
+        <source>Brightness</source>
+        <translation>亮度</translation>
+    </message>
+    <message>
+        <location filename="../widgets/brightness_contrast_dialog.py" line="249"/>
+        <source>Contrast</source>
+        <translation>对比度</translation>
+    </message>
+</context>
+<context>
+    <name>Label_dialog</name>
+    <message>
+        <location filename="../widgets/label_dialog.py" line="235"/>
+        <source>Enter object label</source>
+        <translation>输入对象标签</translation>
+    </message>
+    <message>
+        <location filename="../widgets/label_dialog.py" line="249"/>
+        <source>Group ID</source>
+        <translation>组ID</translation>
+    </message>
+    <message>
+        <location filename="../widgets/label_dialog.py" line="249"/>
+        <source>Label description</source>
+        <translation>标签说明</translation>
+    </message>
+    <message>
+        <location filename="../widgets/label_dialog.py" line="249"/>
+        <source>Ok</source>
+        <translation>确定</translation>
+    </message>
+    <message>
+        <location filename="../widgets/label_dialog.py" line="249"/>
+        <source>Cancel</source>
+        <translation>取消</translation>
     </message>
 </context>
 </TS>

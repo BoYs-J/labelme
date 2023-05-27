@@ -13,6 +13,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../widgets/canvas.py" line="249"/>
+        <source>Click to create point</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../widgets/canvas.py" line="259"/>
         <source>Click &amp; drag to move shape &apos;%s&apos;</source>
         <translation type="unfinished"></translation>
@@ -151,6 +156,16 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../app.py" line="228"/>
+        <source>Save With Image Data</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="228"/>
+        <source>Save image data in label file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../app.py" line="238"/>
         <source>&amp;Close</source>
         <translation type="unfinished"></translation>
@@ -281,6 +296,26 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../app.py" line="310"/>
+        <source>Copy Polygons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="310"/>
+        <source>Copy selected polygons to clipboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="310"/>
+        <source>Paste Polygons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="310"/>
+        <source>Paste copied polygons</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../app.py" line="314"/>
         <source>Undo last point</source>
         <translation type="unfinished"></translation>
@@ -298,6 +333,16 @@
     <message>
         <location filename="../app.py" line="317"/>
         <source>Add point to the nearest edge</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="317"/>
+        <source>Remove Selected Point</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="317"/>
+        <source>Remove selected point from polygon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -383,6 +428,16 @@ Polygons</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../app.py" line="356"/>
+        <source>&amp;Keep Previous Scale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="356"/>
+        <source>Keep previous zoom scale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../app.py" line="360"/>
         <source>&amp;Fit Window</source>
         <translation type="unfinished"></translation>
@@ -400,6 +455,16 @@ Polygons</source>
     <message>
         <location filename="../app.py" line="364"/>
         <source>Zoom follows window width</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="364"/>
+        <source>&amp;Brightness Contrast</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="364"/>
+        <source>Adjust brightness and contrast</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -600,6 +665,67 @@ Polygons</source>
     <message>
         <location filename="../app.py" line="1601"/>
         <source>%s - Open Directory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="1919"/>
+        <source>Save</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="1919"/>
+        <source>Discard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../app.py" line="1919"/>
+        <source>Cancel</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Brightness</name>
+    <message>
+        <location filename="../widgets/brightness_contrast_dialog.py" line="235"/>
+        <source>Brightness/Contrast</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../widgets/brightness_contrast_dialog.py" line="249"/>
+        <source>Brightness</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../widgets/brightness_contrast_dialog.py" line="249"/>
+        <source>Contrast</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Label_dialog</name>
+    <message>
+        <location filename="../widgets/label_dialog.py" line="235"/>
+        <source>Enter object label</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../widgets/label_dialog.py" line="249"/>
+        <source>Group ID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../widgets/label_dialog.py" line="249"/>
+        <source>Label description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../widgets/label_dialog.py" line="249"/>
+        <source>Ok</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../widgets/label_dialog.py" line="249"/>
+        <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
