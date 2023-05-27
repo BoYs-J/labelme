@@ -131,7 +131,7 @@ def main():
             "Development Status :: 5 - Production/Stable",
             "Intended Audience :: Developers",
             "Intended Audience :: Science/Research",
-            "Natural Language :: zh-CN",
+            "Natural Language :: English",
             "Operating System :: OS Independent",
             "Programming Language :: Python",
             "Programming Language :: Python :: 3.5",
