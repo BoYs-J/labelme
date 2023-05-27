@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS><TS version="2.0">
+<!DOCTYPE TS>
+<TS version="2.0">
 <context>
     <name>Canvas</name>
     <message>
@@ -156,12 +157,12 @@
         <translation>自动保存</translation>
     </message>
     <message>
-        <location filename="../app.py" line="228"/>
+        <location filename="../app.py" line="230"/>
         <source>Save With Image Data</source>
         <translation>保存图像数据</translation>
     </message>
     <message>
-        <location filename="../app.py" line="228"/>
+        <location filename="../app.py" line="230"/>
         <source>Save image data in label file</source>
         <translation>将图像数据保存在标签文件中</translation>
     </message>
@@ -684,7 +685,7 @@ Polygons</source>
     </message>
 </context>
 <context>
-    <name>Brightness</name>
+    <name>BrightnessContrastDialog</name>
     <message>
         <location filename="../widgets/brightness_contrast_dialog.py" line="235"/>
         <source>Brightness/Contrast</source>
@@ -702,7 +703,7 @@ Polygons</source>
     </message>
 </context>
 <context>
-    <name>Label_dialog</name>
+    <name>LabelDialog</name>
     <message>
         <location filename="../widgets/label_dialog.py" line="235"/>
         <source>Enter object label</source>

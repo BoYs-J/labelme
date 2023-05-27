@@ -156,12 +156,12 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../app.py" line="228"/>
+        <location filename="../app.py" line="230"/>
         <source>Save With Image Data</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../app.py" line="228"/>
+        <location filename="../app.py" line="230"/>
         <source>Save image data in label file</source>
         <translation type="unfinished"></translation>
     </message>
@@ -684,7 +684,7 @@ Polygons</source>
     </message>
 </context>
 <context>
-    <name>Brightness</name>
+    <name>BrightnessContrastDialog</name>
     <message>
         <location filename="../widgets/brightness_contrast_dialog.py" line="235"/>
         <source>Brightness/Contrast</source>
@@ -702,7 +702,7 @@ Polygons</source>
     </message>
 </context>
 <context>
-    <name>Label_dialog</name>
+    <name>LabelDialog</name>
     <message>
         <location filename="../widgets/label_dialog.py" line="235"/>
         <source>Enter object label</source>
