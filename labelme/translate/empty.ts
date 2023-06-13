@@ -156,26 +156,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../app.py" line="230"/>
-        <source>Save With Image Data</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../app.py" line="230"/>
-        <source>Save image data in label file</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../app.py" line="238"/>
-        <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../app.py" line="238"/>
-        <source>Close current file</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../app.py" line="240"/>
         <source>Polygon &amp;Line Color</source>
         <translation type="unfinished"></translation>
@@ -336,16 +316,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../app.py" line="317"/>
-        <source>Remove Selected Point</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../app.py" line="317"/>
-        <source>Remove selected point from polygon</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../app.py" line="321"/>
         <source>Undo</source>
         <translation type="unfinished"></translation>
@@ -455,16 +425,6 @@ Polygons</source>
     <message>
         <location filename="../app.py" line="364"/>
         <source>Zoom follows window width</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../app.py" line="364"/>
-        <source>&amp;Brightness Contrast</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../app.py" line="364"/>
-        <source>Adjust brightness and contrast</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -686,11 +646,6 @@ Polygons</source>
 <context>
     <name>BrightnessContrastDialog</name>
     <message>
-        <location filename="../widgets/brightness_contrast_dialog.py" line="235"/>
-        <source>Brightness/Contrast</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../widgets/brightness_contrast_dialog.py" line="249"/>
         <source>Brightness</source>
         <translation type="unfinished"></translation>
@@ -703,21 +658,6 @@ Polygons</source>
 </context>
 <context>
     <name>LabelDialog</name>
-    <message>
-        <location filename="../widgets/label_dialog.py" line="235"/>
-        <source>Enter object label</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../widgets/label_dialog.py" line="249"/>
-        <source>Group ID</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../widgets/label_dialog.py" line="249"/>
-        <source>Label description</source>
-        <translation type="unfinished"></translation>
-    </message>
     <message>
         <location filename="../widgets/label_dialog.py" line="249"/>
         <source>Ok</source>

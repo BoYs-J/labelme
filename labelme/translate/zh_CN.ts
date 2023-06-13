@@ -157,26 +157,6 @@
         <translation>自动保存</translation>
     </message>
     <message>
-        <location filename="../app.py" line="230"/>
-        <source>Save With Image Data</source>
-        <translation>保存图像数据</translation>
-    </message>
-    <message>
-        <location filename="../app.py" line="230"/>
-        <source>Save image data in label file</source>
-        <translation>将图像数据保存在标签文件中</translation>
-    </message>
-    <message>
-        <location filename="../app.py" line="238"/>
-        <source>&amp;Close</source>
-        <translation>关闭(&amp;C)</translation>
-    </message>
-    <message>
-        <location filename="../app.py" line="238"/>
-        <source>Close current file</source>
-        <translation>关闭当前文件</translation>
-    </message>
-    <message>
         <location filename="../app.py" line="240"/>
         <source>Polygon &amp;Line Color</source>
         <translation>多边形描边颜色(&amp;L)</translation>
@@ -337,16 +317,6 @@
         <translation>在最近的边上加一个控制点</translation>
     </message>
     <message>
-        <location filename="../app.py" line="317"/>
-        <source>Remove Selected Point</source>
-        <translation>删除选定点</translation>
-    </message>
-    <message>
-        <location filename="../app.py" line="317"/>
-        <source>Remove selected point from polygon</source>
-        <translation>从多边形中移除选定的点</translation>
-    </message>
-    <message>
         <location filename="../app.py" line="321"/>
         <source>Undo</source>
         <translation>撤销</translation>
@@ -457,16 +427,6 @@ Polygons</source>
         <location filename="../app.py" line="364"/>
         <source>Zoom follows window width</source>
         <translation>跟随窗口宽度缩放</translation>
-    </message>
-    <message>
-        <location filename="../app.py" line="364"/>
-        <source>&amp;Brightness Contrast</source>
-        <translation>亮度对比度</translation>
-    </message>
-    <message>
-        <location filename="../app.py" line="364"/>
-        <source>Adjust brightness and contrast</source>
-        <translation>调整亮度和对比度</translation>
     </message>
     <message>
         <location filename="../app.py" line="380"/>
@@ -687,11 +647,6 @@ Polygons</source>
 <context>
     <name>BrightnessContrastDialog</name>
     <message>
-        <location filename="../widgets/brightness_contrast_dialog.py" line="235"/>
-        <source>Brightness/Contrast</source>
-        <translation>亮度/对比度</translation>
-    </message>
-    <message>
         <location filename="../widgets/brightness_contrast_dialog.py" line="249"/>
         <source>Brightness</source>
         <translation>亮度</translation>
@@ -704,21 +659,6 @@ Polygons</source>
 </context>
 <context>
     <name>LabelDialog</name>
-    <message>
-        <location filename="../widgets/label_dialog.py" line="235"/>
-        <source>Enter object label</source>
-        <translation>输入对象标签</translation>
-    </message>
-    <message>
-        <location filename="../widgets/label_dialog.py" line="249"/>
-        <source>Group ID</source>
-        <translation>组ID</translation>
-    </message>
-    <message>
-        <location filename="../widgets/label_dialog.py" line="249"/>
-        <source>Label description</source>
-        <translation>标签说明</translation>
-    </message>
     <message>
         <location filename="../widgets/label_dialog.py" line="249"/>
         <source>Ok</source>

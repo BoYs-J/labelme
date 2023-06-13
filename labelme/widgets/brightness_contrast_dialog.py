@@ -11,7 +11,7 @@ class BrightnessContrastDialog(QtWidgets.QDialog):
     def __init__(self, img, callback, parent=None):
         super(BrightnessContrastDialog, self).__init__(parent)
         self.setModal(True)
-        self.setWindowTitle("Brightness/Contrast")
+        self.setWindowTitle("亮度/对比度")
 
         self.slider_brightness = self._create_slider()
         self.slider_contrast = self._create_slider()

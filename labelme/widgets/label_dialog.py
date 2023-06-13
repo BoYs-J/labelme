@@ -30,7 +30,7 @@ class LabelQLineEdit(QtWidgets.QLineEdit):
 class LabelDialog(QtWidgets.QDialog):
     def __init__(
         self,
-        text="Enter object label",
+        text="输入对象标签",
         parent=None,
         labels=None,
         sort_labels=True,
@@ -51,7 +51,7 @@ class LabelDialog(QtWidgets.QDialog):
         if flags:
             self.edit.textChanged.connect(self.updateFlags)
         self.edit_group_id = QtWidgets.QLineEdit()
-        self.edit_group_id.setPlaceholderText("Group ID")
+        self.edit_group_id.setPlaceholderText("组ID")
         self.edit_group_id.setValidator(
             QtGui.QRegExpValidator(QtCore.QRegExp(r"\d*"), None)
         )
@@ -106,7 +106,7 @@ class LabelDialog(QtWidgets.QDialog):
         self.edit.textChanged.connect(self.updateFlags)
         # text edit
         self.editDescription = QtWidgets.QTextEdit()
-        self.editDescription.setPlaceholderText("Label description")
+        self.editDescription.setPlaceholderText("标签说明")
         self.editDescription.setFixedHeight(50)
         layout.addWidget(self.editDescription)
         self.setLayout(layout)

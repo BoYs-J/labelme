@@ -294,19 +294,19 @@ class MainWindow(QtWidgets.QMainWindow):
         saveAuto.setChecked(self._config["auto_save"])
 
         saveWithImageData = action(
-            text="Save With Image Data",
+            text="保存图像数据",
             slot=self.enableSaveImageWithData,
-            tip="Save image data in label file",
+            tip="将图像数据保存在标签文件中",
             checkable=True,
             checked=self._config["store_data"],
         )
 
         close = action(
-            "&Close",
+            "关闭",
             self.closeFile,
             shortcuts["close"],
             "close",
-            "Close current file",
+            "关闭当前文件",
         )
 
         toggle_keep_prev_mode = action(
@@ -417,11 +417,11 @@ class MainWindow(QtWidgets.QMainWindow):
             enabled=False,
         )
         removePoint = action(
-            text="Remove Selected Point",
+            text="删除选定点",
             slot=self.removeSelectedPoint,
             shortcut=shortcuts["remove_selected_point"],
             icon="edit",
-            tip="Remove selected point from polygon",
+            tip="从多边形中移除选定的点",
             enabled=False,
         )
 
@@ -524,11 +524,11 @@ class MainWindow(QtWidgets.QMainWindow):
             enabled=False,
         )
         brightnessContrast = action(
-            "&Brightness Contrast",
+            "亮度对比度",
             self.brightnessContrast,
             None,
             "color",
-            "Adjust brightness and contrast",
+            "调整亮度和对比度",
             enabled=False,
         )
         # Group zoom controls into a list for easier toggling.
