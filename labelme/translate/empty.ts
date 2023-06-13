@@ -627,21 +627,6 @@ Polygons</source>
         <source>%s - Open Directory</source>
         <translation type="unfinished"></translation>
     </message>
-    <message>
-        <location filename="../app.py" line="1919"/>
-        <source>Save</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../app.py" line="1919"/>
-        <source>Discard</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../app.py" line="1919"/>
-        <source>Cancel</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>BrightnessContrastDialog</name>
@@ -653,19 +638,6 @@ Polygons</source>
     <message>
         <location filename="../widgets/brightness_contrast_dialog.py" line="249"/>
         <source>Contrast</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>LabelDialog</name>
-    <message>
-        <location filename="../widgets/label_dialog.py" line="249"/>
-        <source>Ok</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../widgets/label_dialog.py" line="249"/>
-        <source>Cancel</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

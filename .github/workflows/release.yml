@@ -48,7 +48,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         path: ./dist/labelme.exe
-        name: Labelme-5.2.1-windows
+        name: Labelme-windows-5.2.1
         content_type: application/octet-stream
       if: runner.os == 'Windows'
 
@@ -64,7 +64,7 @@ jobs:
     - name: Upload  macOS
       uses: actions/upload-artifact@v2
       with:
-        name: Labelme-5.2.1-dmg
+        name: Labelme-dmg-5.2.1
         content_type: application/octet-stream
         path: ./dist/Labelme.dmg
       if: runner.os == 'macOS'
