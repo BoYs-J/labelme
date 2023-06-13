@@ -1916,12 +1916,12 @@ class MainWindow(QtWidgets.QMainWindow):
             self,
             self.tr("Save annotations?"),
             msg,
-            mb.保存 | mb.放弃 | mb.取消,
-            mb.保存,
+            mb.Save | mb.Discard | mb.Cancel,
+            mb.Save,
         )
-        if answer == mb.放弃:
+        if answer == mb.Discard:
             return True
-        elif answer == mb.保存:
+        elif answer == mb.Save:
             self.saveFile()
             return True
         else:  # answer == mb.Cancel

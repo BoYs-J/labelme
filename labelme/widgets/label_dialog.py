@@ -63,12 +63,12 @@ class LabelDialog(QtWidgets.QDialog):
             layout.addLayout(layout_edit)
         # buttons
         self.buttonBox = bb = QtWidgets.QDialogButtonBox(
-            QtWidgets.QDialogButtonBox.确定 | QtWidgets.QDialogButtonBox.取消,
+            QtWidgets.QDialogButtonBox.Ok | QtWidgets.QDialogButtonBox.Cancel,
             QtCore.Qt.Horizontal,
             self,
         )
-        bb.button(bb.确定).setIcon(labelme.utils.newIcon("done"))
-        bb.button(bb.取消).setIcon(labelme.utils.newIcon("undo"))
+        bb.button(bb.Ok).setIcon(labelme.utils.newIcon("done"))
+        bb.button(bb.Cancel).setIcon(labelme.utils.newIcon("undo"))
         bb.accepted.connect(self.validate)
         bb.rejected.connect(self.reject)
         layout.addWidget(bb)
