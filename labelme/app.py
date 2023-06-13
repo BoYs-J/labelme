@@ -456,6 +456,13 @@ class MainWindow(QtWidgets.QMainWindow):
             tip=self.tr("Show tutorial page"),
         )
 
+        myinfo = action(
+            self.tr("汉化：零零网络"),
+            self.gotoZero,
+            icon="cdzero",
+            tip=self.tr("前往“零零网络”网站"),
+        )
+
         zoom = QtWidgets.QWidgetAction(self)
         zoom.setDefaultWidget(self.zoomWidget)
         self.zoomWidget.setWhatsThis(
@@ -691,7 +698,13 @@ class MainWindow(QtWidgets.QMainWindow):
                 quit,
             ),
         )
-        utils.addActions(self.menus.help, (help,))
+        utils.addActions(
+            self.menus.help,
+            (
+                help,
+                myinfo,
+            ),
+        )
         utils.addActions(
             self.menus.view,
             (
@@ -938,6 +951,10 @@ class MainWindow(QtWidgets.QMainWindow):
 
     def tutorial(self):
         url = "https://github.com/wkentaro/labelme/tree/main/examples/tutorial"  # NOQA
+        webbrowser.open(url)
+
+    def gotoZero(self):
+        url = "https://www.cdzero.cn"  # 零零网络
         webbrowser.open(url)
 
     def toggleDrawingSensitive(self, drawing=True):
