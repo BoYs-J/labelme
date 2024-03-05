@@ -1,6 +1,7 @@
 name: pack
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - v5.2.1
